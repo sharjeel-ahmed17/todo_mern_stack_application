@@ -4,7 +4,6 @@ const PORT = 5000;
 // routes
 app.get('/', (req , res)=>{
     res.send("hello world")
-    
 })
 app.listen(PORT ,  ()=>{
     console.log('server is running' ,PORT);
