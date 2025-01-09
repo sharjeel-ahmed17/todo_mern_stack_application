@@ -22,6 +22,7 @@ mongoose.connect('mongodb+srv://kifito3954:Y8UP20Dc4aVEtyKw@blood-donor.e4vij.mo
 app.get('/', (req , res)=>{
     res.send("hello world")
 })
+// how to create pull request
 app.listen(PORT ,  ()=>{
     console.log('server is running' ,PORT);
     
